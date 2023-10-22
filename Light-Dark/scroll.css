@@ -1,4 +1,6 @@
-/* body {
+/* The basic css property */
+
+body {
     color: black;
     background: white;
 }
@@ -9,9 +11,19 @@
         background: black;
     }
 }
-*/
+
+
+/* The new property 'light-dark' - Only FireFox Available
 
 body {
+    color: light-dark(black, white);
+    background: light-dark(white, black);
+}
+
+
+/* Other styles */
+
+/* body {
     background: #dca;
     color: #731;
 }
@@ -22,4 +34,4 @@ body {
         color: rgb(29, 17, 6);
         outline: 5px dashed #000;
     }
-}
+} */
